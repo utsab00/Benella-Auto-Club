@@ -1,0 +1,156 @@
+.item-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 65%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+
+.item-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+h4 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.acccordianBtn {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.itemContainer .childItems {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* padding: 10px 5px; */
+    border-radius: 10px;
+    padding: 15px;
+    display: none;
+}
+
+.childItems .childTabs {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.childItems .childHeader {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.childItems .childDesc {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.simpleItemDiv {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 800;
+    margin-bottom: 5px;
+    border: 1px solid rgb(168, 163, 163);
+}
+
+.simpleItemDiv img {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.simpleItemDiv .action {
+    border: 1px solid rgb(212, 208, 208);
+    max-width: 75%;
+    border-radius: 5px;
+}
+
+.simpleItemDiv .action input {
+    border: 0;
+    width: 30%;
+    background-color: transparent;
+    color: gray;
+    text-align: center;
+    outline: 0;
+}
+
+.simpleItemDiv .action button {
+    font-weight: 800;
+    font-size: 20px;
+    outline: 0;
+}
+
+
+.vehicleMainContainer {
+    padding: 16px;
+    background: #fff;
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+}
+
+.headerText {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+hr {
+    margin: 8px 0 16px 0;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+.vehicleDetailsContainer {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.vehicleDetailsContainer input[type="checkbox"] {
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+.vehicleName {
+    font-weight: bold;
+    display: inline;
+    margin: 0;
+}
+
+.vehicleDetails {
+    display: inline;
+    color: #555;
+    margin: 0 0 0 4px;
+}
