@@ -1,0 +1,89 @@
+:root {
+    --archivo-black: 'Archivo Black', sans-serif;
+    --space-grotesk: 'Space Grotesk', 'Segoe UI', sans-serif;
+}
+
+.v5 .bg-secondryCustom {
+    background-color: rgb(165, 164, 164);
+}
+
+.v5 .text1,
+.v5 .text2,
+.v5 .header,
+.v5 .archivoBlackFont,
+.v5 .content {
+    font-family: var(--archivo-black);
+}
+
+.v5 .spaceGrotesk {
+    font-family: var(----space-grotesk);
+    font-weight: 700;
+}
+
+.v5 .text1,
+.v5 .text2 {
+    font-size: 16px;
+}
+
+.v5 .text1,
+.v5 .text2,
+.v5 .header {
+    text-transform: uppercase;
+}
+
+.v5 .header {
+    font-size: 12px;
+}
+
+.v5 .content {
+    font-size: 15px;
+}
+
+.v5 .table,
+td,
+tr {
+    border: 0;
+}
+
+td {
+    padding: 15px !important;
+}
+
+
+
+.v5 .inputboxDiv input,
+.v5 .inputboxDiv button {
+    border: 0;
+    border-radius: 0;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.v5 .bigCheckbox {
+    width: 30px;
+    height: 30px;
+}
+
+.v5 .description {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(73, 73, 73);
+}
+
+.v5 .price {
+    font-size: 20px;
+}
+
+.v5 .bottomBorder {
+    border-bottom: 2px solid black;
+}
+
+.v5 .paymentDiv {
+    min-height: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+}

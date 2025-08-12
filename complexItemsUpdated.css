@@ -1,0 +1,28 @@
+:root {
+    --archivo-black: 'Archivo Black', sans-serif;
+    --space-grotesk: 'Space Grotesk', 'Segoe UI', sans-serif;
+}
+
+.v2 .spaceGrotesk {
+    font-family: var(----space-grotesk);
+    font-weight: 700;
+}
+
+.v2 .bg-secondaryCustom {
+    background-color: rgb(165, 164, 164);
+}
+
+.v2 .bigCheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+.v2 .paymentDiv {
+    min-height: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+}
